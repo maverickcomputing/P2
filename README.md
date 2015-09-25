@@ -12,8 +12,7 @@
 
 
 ## Description
-My submission for Project2. We were asked to create a Password Generator that
-gives a user four random words or a number defined by the user. We were also asked 
-allow users to generate random
+My submission for Project2. We were asked to create a xkcd Password Generator that
+gives a user four random words or a number of words defined by the user. We were also asked allow users to add random numbers and/or characters.
 
 

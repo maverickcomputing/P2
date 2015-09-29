@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+                             <!DOCTYPE html>
 <html>
 <head>
   <title> ~ Henry Perkins P2 ~ </title>
@@ -20,17 +20,17 @@
 
 <p>
 
-<form action="index.php" method="post">
+<form action="index2.php" method="post">
 How many words
 <input type="textbox" name="depth" value="<?php if(isset($_POST['depth'])) echo $_POST['depth']; ?>" ></input>
 <br>
 <br>
 Add a Random Character
-<input type="checkbox" name="special" value="true" ></input>
+<input type="checkbox" name="special" value="<?php if(isset($_POST['special'])?'checked="checked"':''); ?>" ></input>
 <br>
 <br>
 Add a number
-<input type="checkbox" name="number" value="true"></input>
+<input type="checkbox" name="number" value="<?php if(isset($_POST['number'])?'checked="checked"':''); ?>" ></input>
 <br>
 <br>
 <input type="submit" name="submit" value="Generate New Password"/>

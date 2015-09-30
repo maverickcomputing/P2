@@ -7,7 +7,7 @@
 <https://github.com/maverickcomputing/P2>
 
 ## Project 2 Jing Screencast
-<placeholder>
+<http://screencast.com/t/jl5IC0EG>
 
 
 
